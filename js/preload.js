@@ -40,18 +40,26 @@ earthChant.Preload.prototype = {
 		// this.game.load.spritesheet('backButton','assets/sprites/button_sprite_sheet.png',193, 71);
 		this.game.load.image('dialogBox','assets/sprites/dialogBox.png');
 		this.game.load.spritesheet('buttons','assets/sprites/buttons.png', 227, 83, 9);		
-		this.game.load.spritesheet('smog','assets/sprites/smog.png', 416,416,2);
-		this.game.load.spritesheet('canEnemy','assets/sprites/canEnemy.png', 192,192,2);
-		this.game.load.spritesheet('snake','assets/sprites/snake.png',416,416,2);
+		this.game.load.spritesheet('Poisonous Smog','assets/sprites/smog.png', 416,416,2);
+		this.game.load.spritesheet('Evil Tin Can','assets/sprites/canEnemy.png', 192,192,2);
+		// this.game.load.spritesheet('snake','assets/sprites/snake.png',416,416,2);
 		this.game.load.spritesheet('tree','assets/sprites/tree.png',32,32);
-		this.game.load.spritesheet('trashMan','assets/sprites/trashMan.png',416,416,2);
+		this.game.load.spritesheet('Dirty Trash Man','assets/sprites/trashMan.png',416,416,2);
 		this.game.load.image('logo', 'assets/sprites/logo.png');
 		this.game.load.image('background', 'assets/sprites/background.jpg');
 		this.game.load.image('gameOver', 'assets/sprites/gameOver.png');
+		this.game.load.image('gameOver1', 'assets/sprites/gameOver1.png');
 		this.game.load.image('map', 'assets/tilemaps/map.png');
-		this.game.load.image('paper', 'assets/sprites/paper.png');
-		this.game.load.image('sprout', 'assets/sprites/sprout.png');
-		this.game.load.image('steamRoller','assets/sprites/steamRoller.png');
+		this.game.load.image('Evil Paper', 'assets/sprites/paper.png');
+		this.game.load.image('Sprout', 'assets/sprites/sprout.png');
+		this.game.load.image('Destructive Steam Roller','assets/sprites/steamRoller.png');
+		this.game.load.spritesheet('Vile Plastic Bottle', 'assets/sprites/bottle.png', 416,416, 2);
+		this.game.load.image('turtle', 'assets/sprites/turtle.jpg');
+		this.game.load.image('tinCan', 'assets/sprites/tinCan.jpg');
+		this.game.load.image('landFill', 'assets/sprites/landfill.jpg');
+		this.game.load.image('airPollution', 'assets/sprites/airPollution.jpg');
+		this.game.load.image('placeHolder', 'assets/sprites/placeHolder.png');
+		this.game.load.image('sproutImg', 'assets/sprites/sproutImg.png');
 		},
 
 	create: function() {
